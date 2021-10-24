@@ -1,30 +1,28 @@
 # Log2Console
 
-## Project Description
-Log2Console is a development tool offering a nice UI to display, filter and search log messages from different logging services: Log4Net, Log4j and NLog. It can directly receive log events locally or remotely, or read them from a log file... It is written with C#.
+## 日本語の文字化け対応
+Log2Console は、NLog、Log4net、Log4jなどのさまざまなログサービスからのログメッセージをリアルタイムに表示し、フィルタリング・検索機能も備えた素晴らしい開発ツールです。
 
-## Main Features
-* View Remote Log Events: use a concept similar to Chainsaw Receivers.
-* Fully Customizable and Persistent Preferences (UI and Settings) per Windows Profile.
-* Dynamic Filtering, Grouping, Cycling and Searching.
-* Multiple Receiver suppport (since v1.1).
-* Windows 7 support: Taskbar icons (pause, disable autoscroll, clear all) and Taskbar progress (when messages are received).
-* Requires .NET Framework 2.0 only.
+しかし、詳細メッセージの日本語が文字化けしてしまうため、その能力を十分に発揮できるように文字化けを改修しました。
 
-## Receivers
-* File (Standard log or using log4j xml format)
-* UDP IP v4 and v6 (Provides compatibility with log4j and [NLog](docs/NLog.md))
-* .NET Remoting (Prefered receiver for log4net)
-* WinDebug (Receiver for OutputDebugString(), in C++)
-* MSMQ (Microsoft Message Queuing)
-* EventLog (Windows Event Log)
-* TCP IP v4 and v6 (primarily NLog for Silverlight)
-* Silverlight Socket Policy (clientaccesspolicy.xml)
+## 主な特徴
 
-## Screenshots
-_**More [Screenshots](docs/Screenshots.md) here**_
+詳細は、[オリジナルの説明](Readme_org.md)を参照してください。
 
-![](docs/Home_Log2Console_3.png)
+## 日本語対応
+
+オリジナル
+![オリジナル](docs/Localizing_Original.png)
+
+日本語対応版
+![日本語化](docs/Localizing_Japanese.png)
+
+### 制限事項
+Visual Studio 2019に移植後、WinDebug(OutputDebugString)の
+受信機能はハングするため、削除しました。
+
+また、セットアップ機能も未対応のため削除しました。
+適当なフォルダに置いて使ってください。
 
 ## Download
-[Latest Release] https://github.com/Statyk7/log2console/releases
+[Latest Release] https://github.com/sabakunotabito/log2console/releases
