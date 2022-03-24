@@ -24,5 +24,11 @@ Visual Studio 2019に移植後、WinDebug(OutputDebugString)の
 また、セットアップ機能も未対応のため削除しました。
 適当なフォルダに置いて使ってください。
 
+## ドキュメント
+
+- [Log2Console の詳細メッセージを正しく日本語で表示する](https://sabakunotabito.hatenablog.com/entry/2021/10/25/005740)
+- [【Windows版】C#でNLogを使ってログを出力する](https://sabakunotabito.hatenablog.com/entry/2021/11/01/015133)
+- [【Linux版】C#でNLogを使ってログを出力する](https://sabakunotabito.hatenablog.com/entry/2021/11/06/213017)
+
 ## Download
 [Latest Release] https://github.com/sabakunotabito/log2console/releases
