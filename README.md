@@ -1,31 +1,48 @@
-# Log2Console
+# Log2Console - The Japanese Patch
 
-## 日本語の文字化け対応
-Log2Console は、NLog、Log4net、Log4jなどのさまざまなログサービスからのログメッセージをリアルタイムに表示し、フィルタリング・検索機能も備えた素晴らしい開発ツールです。
+> **古の神器に、我らの言葉を。**
 
-しかし、詳細メッセージの日本語が文字化けしてしまうため、その能力を十分に発揮できるように文字化けを改修しました。
+![日本語対応版](docs/Localizing_Japanese.png)
 
-## 主な特徴
+---
 
-詳細は、[オリジナルの説明](Readme_org.md)を参照してください。
+## この神器について (About This Artifact)
 
-## 日本語対応
+**Log2Console**は、NLogやLog4Netといった魔法体系から放たれる、魂の叫び（ログメッセージ）をリアルタイムで受信し、表示する、極めて優れた開発ツールです。それは、我々の冒険の旅路において、まさに「真実を映す鏡」となるべき存在でした。
 
-オリジナル
-![オリジナル](docs/Localizing_Original.png)
+しかし、その偉大な神器には、一つだけ、致命的な呪いがかけられていました。
+**詳細メッセージに記された、我々の母国語（日本語）の魂が、無惨にも文字化けしてしまうのです。**
 
-日本語対応版
-![日本語化](docs/Localizing_Japanese.png)
+このリポジトリは、その「日本語の呪い」を私が解き明かし、誰もが安心して使えるように再生させた、**日本語対応版Log2Console**の書庫です。
 
-### 制限事項
-Visual Studio 2019に移植後、WinDebug(OutputDebugString)の
-受信機能はハングアップするため、削除しました。
+## 呪いの解除 (The Japanese Patch)
 
-## ドキュメント
+この神器が、いかにして真の姿を取り戻したか。その違いは、二枚の鏡を見比べれば、一目瞭然でしょう。
 
-- [Log2Console の詳細メッセージを正しく日本語で表示する](https://sabakunotabito.hatenablog.com/entry/2021/10/25/005740)
-- [【Windows版】C#でNLogを使ってログを出力する](https://sabakunotabito.hatenablog.com/entry/2021/11/01/015133)
-- [【Linux版】C#でNLogを使ってログを出力する](https://sabakunotabito.hatenablog.com/entry/2021/11/06/213017)
+| オリジナル (The Original Mirror) | 日本語対応版 (The Patched Mirror) |
+| :---: | :---: |
+| ![オリジナル](docs/Localizing_Original.png) | ![日本語化](docs/Localizing_Japanese.png) |
 
-## Download
-[Latest Release] https://github.com/sabakunotabito/log2console/releases
+魂の叫びが、本来あるべき姿で、正しく映し出されるようになりました。
+
+### 失われし魔法（制限事項）
+
+呪いを解くための錬金術の過程で、Visual Studio 2019という現代の工房へ魂を移す際、古の魔法である`WinDebug(OutputDebugString)`の受信機能は、工房全体を凍りつかせる危険な副作用が確認されたため、やむなくその力を封印（削除）しました。
+
+## 降臨の儀 (Download & Installation)
+
+この再生されし神器は、**[Releaseページ](https://github.com/sabakunotabito/log2console/releases)** から、いつでも呼び出すことができます。最新の`Log2Console.zip`または`Log2ConsoleSetup.msi`をダウンロードし、その力を解放してください。
+
+## 旅の記録 (Related Chronicles)
+
+この神器を手にし、実際に魂の叫びを聴くための冒険譚は、私の冒険日誌に詳しく記されています。
+
+*   **[その文字化けに、終止符を ～Log2Console、日本語の呪いを解く戦記～](https://sabakunotabito.hatenablog.com/entry/2021/10/25/005740)**
+*   **[そのWriteLineは、呪いの言葉 ～なぜデキる開発者は、NLogという聖剣を選ぶのか～](https://sabakunotabito.hatenablog.com/entry/2021/11/01/015133)**
+*   **[魂は、大地を選ばず ～Windowsで創りし.NETの魂を、Linuxの大地で呼び覚ます～](https://sabakunotabito.hatenablog.com/entry/2021/11/06/213017)**
+
+## 偉大なる先人への感謝 (Acknowledgements)
+
+この神器の元々の創造主、そしてその発展に貢献した全ての先人たちに、心からの敬意と感謝を捧げます。この日本語対応版は、その偉大な遺産の上に成り立っています。
+
+*   **オリジナルの古文書:** [Readme_org.md](https://github.com/Statyk7/log2console)
