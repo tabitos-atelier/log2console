@@ -31,15 +31,15 @@
 
 ## 降臨の儀 (Download & Installation)
 
-この再生されし神器は、**[Releaseページ](https://github.com/sabakunotabito/log2console/releases)** から、いつでも呼び出すことができます。最新の`Log2Console.zip`または`Log2ConsoleSetup.msi`をダウンロードし、その力を解放してください。
+この再生されし神器は、**[Releaseページ](https://github.com/tabitos-atelier/log2console/releases)** から、いつでも呼び出すことができます。最新の`Log2Console.zip`または`Log2ConsoleSetup.msi`をダウンロードし、その力を解放してください。
 
 ## 旅の記録 (Related Chronicles)
 
 この神器を手にし、実際に魂の叫びを聴くための冒険譚は、私の冒険日誌に詳しく記されています。
 
-*   **[その文字化けに、終止符を ～Log2Console、日本語の呪いを解く戦記～](https://sabakunotabito.hatenablog.com/entry/2021/10/25/005740)**
-*   **[そのWriteLineは、呪いの言葉 ～なぜデキる開発者は、NLogという聖剣を選ぶのか～](https://sabakunotabito.hatenablog.com/entry/2021/11/01/015133)**
-*   **[魂は、大地を選ばず ～Windowsで創りし.NETの魂を、Linuxの大地で呼び覚ます～](https://sabakunotabito.hatenablog.com/entry/2021/11/06/213017)**
+*   **[その文字化けに、終止符を ～Log2Console、日本語の呪いを解く戦記～](https://tabitos-voyage.com/entry/2021/10/25/005740)**
+*   **[そのWriteLineは、呪いの言葉 ～なぜデキる開発者は、NLogという聖剣を選ぶのか～](https://tabitos-voyage.com/entry/2021/11/01/015133)**
+*   **[魂は、大地を選ばず ～Windowsで創りし.NETの魂を、Linuxの大地で呼び覚ます～](https://tabitos-voyage.com/entry/2021/11/06/213017)**
 
 ## 偉大なる先人への感謝 (Acknowledgements)
 
